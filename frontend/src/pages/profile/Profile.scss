@@ -1,0 +1,91 @@
+.maincontainer {
+    width: 100vw;
+    height: auto;
+
+    .nav {}
+
+    .profile-wrapper {
+        display: flex;
+
+        .sidebar {
+            width: 300px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            width: 44rem;
+            margin-top: 12rem;
+            margin-left: 220px;
+
+
+            gap: 50px;
+
+            .top {
+                display: flex;
+                align-items: center;
+                padding: 10px 10px;
+                gap: 15px;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                }
+            }
+
+            .form {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: black;
+                }
+
+                input {
+                    height: 2em;
+                    border: 3px solid whitesmoke;
+                    margin: 10px;
+                }
+
+            }
+
+
+            .visibility {
+
+                span {}
+
+
+                .visibilitytokens {
+                    background-color: whitesmoke;
+                    padding: 10px 30px;
+
+
+                    .swi {
+                        position: absolute;
+                        right: 350px;
+                    }
+                }
+
+
+
+            }
+
+            .btnedit {
+                display: flex;
+                flex-direction: row-reverse;
+                gap: 10px;
+
+
+                button {}
+            }
+
+
+
+        }
+    }
+
+
+}

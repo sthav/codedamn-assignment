@@ -1,0 +1,68 @@
+.navbar {
+    width: 100vw;
+    height: 58px;
+    display: flex;
+    align-items: center;
+
+
+    .left {
+        width: 50%;
+
+        .logo {
+            padding: 0 25px;
+
+            span {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+
+    }
+
+    .right {
+        display: flex;
+
+        .search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 5px;
+            background-color: white;
+
+            input {
+                width: 300px;
+                text-decoration: none;
+                border: none;
+            }
+
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: whitesmoke;
+            }
+
+        }
+
+        .icons {
+            display: flex;
+            padding: 0 20px;
+
+            .zap {
+                span {
+                    
+                }
+            }
+
+            .notifications {}
+
+            .profileimg {
+                img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

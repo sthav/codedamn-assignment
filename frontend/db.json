@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Marina Budarina",
+      "about": "lorem ipsum dolor sit amet",
+      "profession": "Student",
+      "dob": "06/10/99",
+      "gender": "female"
+    },
+    [
+      {
+        "id": 1,
+        "name": "Marina Budarina",
+        "about": "lorem ipsum dolor sit amet",
+        "profession": "Student",
+        "dob": "06/10/99",
+        "gender": "female"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name": "Marina Budarina",
+        "about": "lorem ipsum dolor sit amet",
+        "profession": "Student",
+        "dob": "06/10/99",
+        "gender": "female"
+      },
+      [
+        {
+          "id": 1,
+          "name": "Marina Budarina",
+          "about": "lorem ipsum dolor sit amet",
+          "profession": "Student",
+          "dob": "06/10/99",
+          "gender": "female"
+        }
+      ]
+    ]
+  ]
+}

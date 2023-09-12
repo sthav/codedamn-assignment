@@ -1,0 +1,27 @@
+.sidebarin {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+
+
+    .wrapper {
+        width: 16rem;
+        height: 16rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4rem;
+        padding: 0px 25px;
+        gap: 10px;
+        background-color: whitesmoke;
+
+
+
+        span {
+            font-size: 24px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+}
